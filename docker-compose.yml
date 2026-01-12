@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  some-mongo:
+    image: mongo
+    container_name: test-mongo
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: eocares
+      MONGO_INITDB_ROOT_PASSWORD: ocares2026
+    ports:
+      - "27017:270
